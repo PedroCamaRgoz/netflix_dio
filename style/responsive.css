@@ -1,0 +1,82 @@
+@media screen and (max-width:700px){
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    
+    .descricao{
+        visibility: hidden;
+    }
+
+   header .container{
+       
+       display: flex;
+       justify-content: center;
+       margin: auto;
+
+   }
+
+
+   header .logo{
+     margin: auto;
+   }
+
+   .box-filmes{
+    
+       background-color: none;
+       padding: 40px;
+       margin: 0;
+   }
+
+   .filme-principal{
+
+    height: 500px;
+    width: 410px;
+    margin: auto;
+    background-position:-190px;
+    
+
+   }
+
+   main .container{
+     
+    /* background-color: aqua; */
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px 0px 0px 60px;
+       padding: 0px 0 40px 30px;
+       
+       
+       
+   }
+
+   .titulo{
+       
+    text-align: center;
+   }
+
+   .botao{
+       height: 50%;
+       width: 90%;
+       background-color: rgba(124, 115, 115, 0.9);
+       
+    
+   }
+
+}
+
+@media screen and (max-width:370px){
+
+    
+}
